@@ -11,7 +11,7 @@ using UnityEngine.UI;
 namespace DanielLochner.Assets.SimpleScrollSnap
 {
     [CustomEditor(typeof(SimpleScrollSnap))]
-    public class SimpleScrollSnapEditor : Editor
+    public class SimpleScrollSnapEditor : UnityEditor.Editor
     {
         #region Fields
         private int selectedProperty;
